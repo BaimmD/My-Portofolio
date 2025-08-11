@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Personal Portfolio Website</title>
+
+    <!-- Box icons -->
+    <script src="https://unpkg.com/boxicons@2.1.4/dist/boxicons.js"></script>
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- Welcome Animation (letakkan sebagai child pertama <body>) -->
+    <div class="welcome-screen" role="dialog" aria-label="Welcome" aria-hidden="false">
+        <h1 class="typing-text" aria-hidden="true">Welcome To My </h1>
+        <h2 class="neon-text" aria-hidden="true">Portofolio WebSite</h2>
+    </div>
+
+    <!-- Header Design -->
+    <header class="header">
+        <a href="#" class="logo">Portfolio</a>
+        <button id="menu-icon" aria-label="Toggle navigation menu" aria-expanded="false">
+                    <box-icon name='menu'></box-icon>
+                </button>
+        <nav class="navbar">
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main>
+        <!-- Home Section Design -->
+        <section class="home" id="home">
+            <div class="home-content">
+                <h3>Hi, It's Baim</h3>
+                <h1>I'm a Student</h1>
+                <h3>And I'm an <span>intern at a computer clinic</span></h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae quidem corporis eaque soluta dolorem, libero consequuntur modi dolorum odit sequi reiciendis, ut atque nam assumenda officiis, tempore id quo aperiam?</p>
+                <div class="social-media">
+                    <a href="#" aria-label="Instagram"><box-icon name='instagram-alt' type='logo'></box-icon></a>
+                    <a href="#" aria-label="TikTok"><box-icon name='tiktok' type='logo'></box-icon></a>
+                    <a href="#" aria-label="Discord"><box-icon name='discord-alt' type='logo'></box-icon></a>
+                    <a href="#" aria-label="GitHub"><box-icon type='logo' name='github'></box-icon></a>
+                </div>
+                <a href="#" class="btn">Download CV</a>
+            </div>
+            <div class="home-img">
+                <img src="./img/circular_masked.gif" alt="Profile Image">
+            </div>
+        </section>
+
+        <!-- About Section Design -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="./img/inside_circle_transparent.gif" alt="About Image">
+            </div>
+            <div class="about-content">
+                <h2 class="heading">About <span>Me</span></h2>
+                <h3>Intern at a Computer Clinic</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Debitis porro omnis sint commodi a quaerat error quos in natus facilis. Illo reprehenderit, explicabo recusandae iste reiciendis non officiis fugit mollitia!</p>
+                <a href="#" class="btn">Read More</a>
+            </div>
+        </section>
+
+        <!-- Services Section Design -->
+        <section class="services" id="services">
+            <h2 class="heading">Our <span>Services</span></h2>
+            <div class="services-container">
+                <div class="services-box">
+                    <box-icon name='code-alt'></box-icon>
+                    <h3>Web Development</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum obcaecati, sit dolore fuga sequi quasi saepe at eum consectetur vel corrupti tempore non repellat quaerat exercitationem ratione amet laboriosam. Omnis!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <box-icon type='solid' name='paint'></box-icon>
+                    <h3>Graphic Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum obcaecati, sit dolore fuga sequi quasi saepe at eum consectetur vel corrupti tempore non repellat quaerat exercitationem ratione amet laboriosam. Omnis!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+
+                <div class="services-box">
+                    <box-icon name='bar-chart-alt'></box-icon>
+                    <h3>Digital Marketing</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum obcaecati, sit dolore fuga sequi quasi saepe at eum consectetur vel corrupti tempore non repellat quaerat exercitationem ratione amet laboriosam. Omnis!</p>
+                    <a href="#" class="btn">Read More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Portfolio Section Design -->
+        <section class="portfolio" id="portfolio">
+            <h2 class="heading">Latest <span>Projects</span></h2>
+            <div class="portfolio-container">
+                <div class="portfolio-box">
+                    <img src="./img/634237bd17f3f.jpg" alt="Project 1">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem impedit.</p>
+                        <a href="#" class="project-link" aria-label="View Project"><box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="./img/63732eef3c439.jpg" alt="Project 2">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem impedit.</p>
+                        <a href="#" class="project-link"><box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="./img/koduind2.jfif" alt="Project 3">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem impedit.</p>
+                        <a href="#" class="project-link"><box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="./img/koding.3.jfif" alt="Project 4">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem impedit.</p>
+                        <a href="#" class="project-link"><box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="./img/download.jfif" alt="Project 5">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem impedit.</p>
+                        <a href="#" class="project-link"><box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+
+                <div class="portfolio-box">
+                    <img src="./img/kodin1.jfif" alt="Project 6">
+                    <div class="portfolio-layer">
+                        <h4>Web Design</h4>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minus rem impedit.</p>
+                        <a href="#" class="project-link"><box-icon name='link-external'></box-icon></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section Design -->
+        <section class="contact" id="contact">
+            <h2 class="heading">Contact <span>Me!</span></h2>
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name" required>
+                    <input type="email" placeholder="Email Address" required>
+                </div>
+                <div class="input-box">
+                    <input type="tel" placeholder="Mobile Number" required>
+                    <input type="text" placeholder="Email Subject" required>
+                </div>
+                <textarea name="message" id="message" cols="30" rows="10" placeholder="Your Message" required></textarea>
+                <div class="button-container">
+                    <button type="submit" class="btn">Send Message</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <!-- Footer Design -->
+    <footer class="footer">
+        <p>Copyright &copy; 2025 by BaimmD | All Rights Reserved.</p>
+        <div class="footer-iconTop">
+            <a href="#home" aria-label="Back to top"><box-icon name='up-arrow-alt'></box-icon></a>
+        </div>
+    </footer>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
